@@ -1,2 +1,1 @@
-# fastbook
-Experiments while reading the book "Deep Learning for coders with fast &amp; PyTorch"
+# Experiments while reading the book :blue_book: *Deep Learning for coders with fast &amp; PyTorch*
