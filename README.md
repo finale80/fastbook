@@ -1,7 +1,6 @@
-# :blue_book: Reading: *Deep Learning for coders with fast &amp; PyTorch*
-### *Code along experiments*
+# :blue_book: Notes while reading: *Deep Learning for coders with fast &amp; PyTorch*
 
-## Resources
+## Extra resources
 - original notebooks [gitrepo](https://github.com/fastai/fastbook)
 
 ## Chapter 02:
@@ -11,7 +10,7 @@ Create a  ResNet-based image classifier to detect 3 types of guitars: Fender Str
 
 ## Chapter 04:
 
-A few extras
+I followed the original flow of the chapter, but using my own code for the most part and added the following:
 - extended MNIST mean classifier to all digits
 - compared MNIST binary (3-vs-7) against all digits classifier
 - more experiments with SDG for parabol (epochs and learning rate)
