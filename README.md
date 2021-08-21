@@ -29,5 +29,6 @@ Following the chapter's flow, I developed my code and added the following:
 - More experiments with SGD for MNIST binary (3-vs-7). Specifically, more on learning rate and the effect of shuffle
 
 ### :pushpin: TODO:
+- Complete the chapter with a 2-layers architecture
 - Extend the code so to support a 10-digit classifier
 
