@@ -27,9 +27,9 @@ Following the chapter's flow, I developed my code and added the following:
 - Compared MNIST binary (3-vs-7) against all digits classifier
 - More experiments with SDG for a parabola (epochs and learning rate)
 - More experiments with SGD for MNIST binary (3-vs-7). Specifically, more on learning rate and the effect of shuffle
+- Refactored MNIST binary classifier code using OOP
 - More experiments for MNIST binary (3-vs-7) with a 2-layers architecture (using a first layer with 10, 30, 50, 100, and 300)
 - Added MNIST binary (3-vs-7) with a 3-layers architecture (100/10 -vs- 300/50)
+- Added a 10-digits classifier
 
-### :pushpin: TODO:
-- Extend the code so to support a 10-digit classifier
 
