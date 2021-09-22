@@ -19,7 +19,7 @@ I took the same approach an created a 3-way guitar classifier :guitar: (to ident
 The chapter introduces the mechanics of SGD
 
 A couple of keys aspects in the original chapter:
-- The learning rate values used are different from common literature, and are not fully argumented. To me the average reader would wonder what is their impact
+- The learning rate values used are different from common literature, and are not fully argumented. To me the average reader would wonder what is their impact --> Chapter 5 has a large discussion on learning rates and different policies to use them
 - The training is done without shuffling (the parameter is not mentioned, but by default is set to false). Again, one should wonder about the impact of this
 
 Following the chapter's flow, I developed my code and added the following:
