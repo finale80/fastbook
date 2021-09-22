@@ -33,3 +33,15 @@ Following the chapter's flow, I developed my code and added the following:
 - Added a 10-digits classifier
 
 
+## Chapter 05:
+- added demostration that sigmoid(x1-x2) = softmax(x1) for a binary classifier
+- added demostration that crossentropy(x, y) = softmax(x) - y
+- extended image transformation examples
+- re-implemented the learning rate finder
+- extended comparison on selecting the learning rate
+    - run `lr_find()` to discover the learning rate (namely *single_lr*)
+    - train the model head for 3 cycles using the discovered learning rate: this is our *base* model
+    - *single_lr policy*: unfreeze the base model and train for 10 epochs with *single_lr*
+    - *double_lr policy*: rerun `lr_find()` to discover a new learning rate (namely *double_lr*), unfreeze the base model and train for 10 epochs with the new learning rate
+    - *discriminative default policy*: unfreeze the base model and train for 10 epochs with the new learning rate in range (*double_lr/100, double_lr*)
+    - *discriminative policy*: unfreeze the base model and train for 10 epochs with the new learning rate in range (1e-6, 1e-4) which was manually selected
